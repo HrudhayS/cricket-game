@@ -1,0 +1,100 @@
+/* --- GLOBAL PAGE STYLING --- */
+body {
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(135deg, #005C97, #363795);
+    color: white;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+/* Header */
+header {
+    background: rgba(255,255,255,0.12);
+    backdrop-filter: blur(10px);
+    padding: 18px;
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #F8F9FA;
+}
+
+/* Scoreboard Section */
+#scoreboard {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px auto;
+    width: 85%;
+    background: rgba(255,255,255,0.15);
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.2);
+}
+
+#scoreboard div h2 {
+    margin-bottom: 8px;
+    font-size: 20px;
+    color: #FFE066;
+}
+
+#scoreboard div p span {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+/* Commentary Box */
+#commentary-box {
+    width: 85%;
+    margin: 20px auto;
+    background: rgba(255,255,255,0.15);
+    padding: 14px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+/* Game Buttons */
+button {
+    padding: 14px 36px;
+    margin: 15px;
+    border: none;
+    border-radius: 8px;
+    background: #FFBE0B;
+    color: #333;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.25s ease, background 0.25s ease;
+}
+
+button:hover {
+    transform: scale(1.08);
+    background: #FFD43B;
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+/* Footer */
+footer {
+    margin-top: 25px;
+    padding: 10px;
+    font-size: 14px;
+    opacity: 0.7;
+}
+
+/* --- Animations from before --- */
+.flash {
+    animation: flashAnim 0.4s ease-in-out;
+}
+
+@keyframes flashAnim {
+    0% { color: white; }
+    50% { color: #00FF7F; font-size: 30px; }
+    100% { color: white; }
+}
+
+.fade {
+    opacity: 0.3;
+    transition: opacity 0.4s ease-in-out;
+}

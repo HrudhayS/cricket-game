@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Cricket Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Interactive Cricket Game</h1>
+        </header>
+
+        <section id="scoreboard">
+    <div>
+        <h2 id="turn-text">Team A Batting</h2>
+    </div>
+    <div>
+        <h2>Runs</h2>
+        <p><span id="runs">0</span></p>
+    </div>
+    <div>
+        <h2>Wickets</h2>
+        <p><span id="wickets">0</span></p>
+    </div>
+    <div>
+        <h2>Overs</h2>
+        <p><span id="overs">0</span></p>
+    </div>
+</section>
+<h2 id="target-display" style="margin-top: 10px;"></h2>
+        <section id="commentary">
+            <h2>Commentary</h2>
+            <p id="commentary-text">Match Started! Play your first shot 🎮</p>
+        </section>
+
+        <section id="game-controls">
+            <button id="bat-button">Bat</button>
+            <button id="bowl-button">Bowl</button>
+            <button id="reset-button" style="display:none;">🔄 Restart Match</button>
+
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
