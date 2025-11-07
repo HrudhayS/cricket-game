@@ -2,6 +2,11 @@
 
 This is a simple interactive cricket game built using HTML, CSS, and JavaScript. The user can simulate batting and bowling, and the game keeps track of runs, wickets, overs, and innings.
 
+Live deployment link
+https://hrudhays.github.io/cricket-game/
+
+Repository link
+https://github.com/HrudhayS/cricket-game.git
 ## Features
 
 Two innings gameplay (Team A and Team B)
@@ -48,3 +53,4 @@ AI-based bowling logic
 ---
 
 **Enjoy
+
